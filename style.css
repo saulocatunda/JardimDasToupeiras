@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body main {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+body main .camp img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+body main .camp #toupeiras {
+  display: flex;
+}
+
+@keyframes toupeira {
+  0% {
+    background-image: url(assets/toupeira1.svg);
+  }
+
+  20% {
+    background-image: url(assets/toupeira2.svg);
+  }
+
+  40% {
+    background-image: url(assets/toupeira3.svg);
+  }
+
+  60% {
+    background-image: url(assets/toupeira4.svg);
+  }
+
+  80% {
+    background-image: url(assets/toupeira5.svg);
+  }
+
+  100% {
+    background-image: url(assets/toupeira6.svg);
+  }
+  
+}
