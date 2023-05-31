@@ -10,12 +10,38 @@
 
 body {
   font-size: 1.6rem;
+  background-color: rgb(150, 212, 60);
 }
 
 body main {
   height: 100vh;
   width: 100vw;
   margin: 0;
+}
+
+body main .camp {
+  display: grid;
+  place-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: 70rem;
+  height: 100rem;
+}
+
+body main .camp #toupeiras {
+  display: grid;
+  place-content: center;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 70rem;
+  height: 100rem;
+}
+
+body main .camp .toupeira img {
+  width: 20.2rem;
+  height: 12rem;
+  position: relative;
+  z-index: -1;
 }
 
 body main .camp img {
@@ -27,29 +53,121 @@ body main .camp #toupeiras {
   display: flex;
 }
 
+footer {
+  color: black;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+
+body main .camp #toupeira3 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 2.7s;
+}
+
+body main .camp #toupeira7 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 3.5s;
+}
+
+body main .camp #toupeira12 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+body main .camp #toupeira9 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 1.3s;
+}
+
+body main .camp #toupeira1 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 4.7s;
+}
+
+body main .camp #toupeira2 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 7.2s;
+}
+
+body main .camp #toupeira4 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 6.8s;
+}
+
+body main .camp #toupeira5 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 5.3s;
+}
+
+body main .camp #toupeira6 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 9.8s;
+}
+
+body main .camp #toupeira8 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 14.2s;
+}
+
+body main .camp #toupeira10 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 10.5s;
+}
+
+body main .camp #toupeira11 {
+  animation: toupeira .5s ease 1 alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 12.5s;
+}
+
 @keyframes toupeira {
   0% {
-    background-image: url(assets/toupeira1.svg);
+    
+    background-size: 16rem;
+    background-repeat: no-repeat;
+    background-image: url(assets/toupeira6.svg);
   }
 
   20% {
+    background-size: 16rem;
+    background-repeat: no-repeat;
     background-image: url(assets/toupeira2.svg);
   }
 
   40% {
+    background-size: 16rem;
+    background-repeat: no-repeat;
     background-image: url(assets/toupeira3.svg);
   }
 
   60% {
+    background-size: 16rem;
+    background-repeat: no-repeat;
     background-image: url(assets/toupeira4.svg);
   }
 
   80% {
+    background-size: 16rem;
+    background-repeat: no-repeat;
     background-image: url(assets/toupeira5.svg);
   }
 
   100% {
+    background-size: 16rem;
+    background-repeat: no-repeat;
     background-image: url(assets/toupeira6.svg);
   }
-  
 }
